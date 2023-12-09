@@ -20,24 +20,24 @@ Main method is in *CreditCardProcessor.java*
 ## Commands to execute the project
 
 Make sure you are in CardValidator
-cd CardValidator
+> cd CardValidator
 
 Then install maven
-mvn install
+> mvn install
 
 Compile the project using maven
-mvn compile
+> mvn compile
 
 Then we can manually test for all the file types:
 
 JSON command:
-mvn exec:java -Dexec.args="resources/input_file.json resources/output_file.json”
+> mvn exec:java -Dexec.args="resources/input_file.json resources/output_file.json”
 
 XML command:
-mvn exec:java -Dexec.args="resources/input_file.xml resources/output_file.xml"
+> mvn exec:java -Dexec.args="resources/input_file.xml resources/output_file.xml"
 
 CSV command:
-mvn exec:java -Dexec.args="resources/input_file.csv resources/output_file.csv”
+> mvn exec:java -Dexec.args="resources/input_file.csv resources/output_file.csv”
 
 
 
