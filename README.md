@@ -83,7 +83,7 @@ CardValidationUtil for shared validation logic, enhancing code reuse and separat
 **Cons:** Can introduce additional complexity with multiple strategy classes. Requires proper handling of the context where strategies are switched.
 
 
-
+## Note: **All the Documentation and other UML Diagrams are in the folder CardValidator/Documentatio & Diagrams.**
 
 
 ## Dependency Management
