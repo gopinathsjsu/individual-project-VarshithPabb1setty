@@ -1,11 +1,3 @@
-// package factory;
-
-// import model.AmExCC;
-// import model.CreditCard;
-// import model.DiscoverCC;
-// import model.MasterCC;
-// import model.VisaCC;
-
 public class CreditCardFactory {
     public static CreditCard getCreditCard(String cardNumber, String expirationDate, String cardHolderName) {
         if (cardNumber.startsWith("5") && "12345".contains(cardNumber.substring(1, 2)) && cardNumber.length() == 16) {

@@ -1,12 +1,3 @@
-// package processor;
-// package parser;
-// import parser.*;
-
-// import parser.FileParser;
-// import parser.CSVParser;
-// import parser.JSONParser;
-// import parser.XMLParser;
-
 public class CreditCardProcessor {
     public static void main(String[] args) {
         if (args.length < 2) {
