@@ -73,41 +73,4 @@ public class XMLParser implements FileParser {
         element.appendChild(doc.createTextNode(value != null ? value : ""));
         return element;
     }
-
-    // private String getCardTypeAndValidity(String cardNumber) {
-    //     if (cardNumber == null || cardNumber.isEmpty()) {
-    //         return "Invalid: empty/null card number";
-    //     }
-
-    //     if (!cardNumber.matches("\\d+")) {
-    //         return "Invalid: non numeric characters";
-    //     }
-
-    //     if (cardNumber.length() > 19) {
-    //         return "Invalid: more than 19 digits";
-    //     }
-
-    //     CreditCard card = CreditCardFactory.getCreditCard(cardNumber, "", ""); // Assuming expiration date and cardholder name are not needed for type determination
-
-    //     if (card == null) {
-    //         return "Invalid: Not a possible card number";
-    //     }
-
-    //     boolean isValid = card.isValid();
-    //     String cardType = getCardType(card);
-    //     return isValid ? cardType : "Invalid: Not a possible card number";
-    // }
-
-    // private String getCardType(CreditCard card) {
-    //     if (card instanceof VisaCC) {
-    //         return "Visa";
-    //     } else if (card instanceof MasterCC) {
-    //         return "MasterCard";
-    //     } else if (card instanceof AmExCC) {
-    //         return "AmericanExpress";
-    //     } else if (card instanceof DiscoverCC) {
-    //         return "Discover";
-    //     }
-    //     return "Unknown";
-    // }
 }
